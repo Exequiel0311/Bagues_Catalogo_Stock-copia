@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo de Cosméticos</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Stock-Bagues Auryn (Clara Chemes)</h1>
+    <p>Stock actualizado desde Google Sheets</p>
+  </header>
+
+  <div class="filtros">
+    <button class="btn-filtro active" data-categoria="todo">Stock</button>
+    <button class="btn-filtro" data-categoria="Fragancia">Fragancias</button>
+    <button class="btn-filtro" data-categoria="Aromatizante">Aromatizantes</button>
+    <button class="btn-filtro" data-categoria="Aceites_Escenciales">Aceites escenciales</button>
+    <button class="btn-filtro" data-categoria="Perfume_Hidratante">P.Hidratantes</button>
+    <button class="btn-filtro" data-categoria="Labios">Labiales</button>
+    <button class="btn-filtro" data-categoria="Acondicionador">Acondicionadores</button>
+    <button class="btn-filtro" data-categoria="Balsamo">Balsamos</button>
+    <button class="btn-filtro" data-categoria="Bruma">Brumas</button>
+    <button class="btn-filtro" data-categoria="Crema">Cremas</button>
+    <button class="btn-filtro" data-categoria="Delineador">Delineadores</button>
+    <button class="btn-filtro" data-categoria="Desmaquillante">Desmaquillantes</button>
+    <button class="btn-filtro" data-categoria="Exfoliante">Exfoliantes</button>
+    <button class="btn-filtro" data-categoria="Humectante">Humectantes</button>
+    <button class="btn-filtro" data-categoria="Limpieza">Limpieza</button>
+    <button class="btn-filtro" data-categoria="Locion">Lociones</button>
+    <button class="btn-filtro" data-categoria="Mascara">Mascaras</button>
+    <button class="btn-filtro" data-categoria="Nutricion">Nutricion</button>
+    <button class="btn-filtro" data-categoria="Shampoo">Shampoos</button>
+    <button class="btn-filtro" data-categoria="Repuesto">Repuestos</button>
+    <a href="https://catalogo.bagues.net/C0525/page/1" class="btn-filtro" id="btn-catalogo">Catálogo</a>
+  </div>
+
+  <div class="contenedor-productos" id="productos">
+    <!-- Los productos se cargarán aquí con JavaScript -->
+    <p>Cargando productos...</p>
+  </div>
+
+  <footer>
+    <p>© 2023 - Catálogo de Cosméticos</p>
+  </footer>
+
+  <script src="script/script.js"></script>
+</body>
+</html>
